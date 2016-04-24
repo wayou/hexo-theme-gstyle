@@ -39,3 +39,7 @@ image_caption: true
 ```
 
 ### navigation active indicator
+whether to show an indicator for the active navigation menu item
+```yml
+active_nav: false
+```
