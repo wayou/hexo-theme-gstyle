@@ -15,12 +15,12 @@ active_nav: false # show active status on nav menu
 
 sidebar: true # whether to show the sidebar
 widgets:
-  - category
-  - tag
-  - tagcloud
-  - links
-  - archive
+  # - category
+  # - tag
+  # - tagcloud
+  # - archive
   - recent_posts
+  - links
 links:
   - title: "GitHub"
     url: http://www.github.com/wayou

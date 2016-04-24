@@ -2,7 +2,11 @@
 a googl style hexo theme.
 
 ##features
-### 
+### smooth page transition
+all pages are loaded async by using [smoothsate](http://smoothstate.com/).
+and pages are preloaded before you visit them, super fast!
+no blank between page switch!
+
 ### responsive
 totaly responsive, mobile first.
 ![hexo-theme-gstyle responsive screenshot]()
