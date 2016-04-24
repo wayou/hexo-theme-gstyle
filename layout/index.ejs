@@ -1,0 +1,55 @@
+ <div class="row">
+  <div class="main">
+
+  <% page.posts.each(function(post, i){ %>
+    <article>
+      <%if(post.cover){%>
+      <header class="post-header with-cover" style="background-image:url('<%- config.root+post.path+post.cover%>')" >
+      <%}else{%>
+      <header class="post-header">
+      <%}%>
+        <h1 class="post-title"><a href="<%- url_for(post.path) %>" ><%- post.title %></a></h1>
+      </header>
+
+       <section class="post-info">
+        <span class="post-date"><%- date(post.date, 'YYYY/M/D') %></span>
+          <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
+          <span class="post-category">
+              <%- list_categories(post.categories, {
+                show_count: false,
+                class: 'post-category',
+                style: 'none',
+                separator: ' '
+              }) %>
+          </span>
+          <% } %>
+          <% if (post.tags && post.tags.length&&theme.show_post_tags){ %>
+          <span class="post-tags">
+            <%- list_tags(post.tags, {
+              show_count: false,
+              class: 'post-tag'
+            }) %>
+          </span>
+          <% } %>
+        <!-- <span class="read-more btn"><a href="<%- url_for(post.path) %>" ><%=__('more')%></a></span> -->
+      </section>
+
+      <section class="post-abstract">
+        <%if(post.excerpt){%>
+          <%- strip_html(post.excerpt) %>
+        <%}else{%>
+          <%- strip_html(truncate(post.content,{length:150})) %>
+        <%}%>
+      </section>
+      
+    </article>
+  <% }) %>
+  <%- partial('partials/pagination') %>
+  
+  </div>
+  <%if(theme.sidebar&&theme.widgets.length){%>
+    <aside>
+        <%- partial('partials/widgets') %>
+    </aside>
+  <%}%>
+</div>

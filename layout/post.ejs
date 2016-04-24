@@ -1,0 +1,74 @@
+<div class="row">
+    <div class="main">
+        <article>
+          <%if(page.cover){%>
+          <header class="post-header with-cover" style="background-image:url('<%- config.root+page.path+page.cover%>')" >
+          <%}else{%>
+          <header class="post-header">
+          <%}%>
+            <h1 class="post-title"><%- page.title %></h1>
+          </header>
+           
+          <section class="post-info">
+            <span class="post-date"><%- date(page.date, 'YYYY/M/D') %></span>
+            <% if (page.categories && page.categories.length&&theme.show_post_category){ %>
+            <span class="post-category">
+                <%- list_categories(page.categories, {
+                  show_count: false,
+                  class: 'article-category',
+                  style: 'none',
+                  separator: ' '
+                }) %>
+            </span>
+            <% } %>
+            <% if (page.tags && page.tags.length&&theme.show_post_tags){ %>
+            <span class="post-tags">
+              <%- list_tags(page.tags, {
+                show_count: false,
+                class: 'post-tag'
+              }) %>
+            </span>
+            <% } %>
+          </section>
+
+          <section class="post-content">
+            <%-page.content%>
+          </section>
+        </article>
+        <% if (page.total > 1){ %>
+        <div class="pagination">
+            <%- paginator({
+              prev_text: "« "+__('prev'),
+              next_text: __('next')+" »"
+            }) %>
+        </div>
+        <% } %>
+
+       <% if (page.prev || page.next){ %>
+        <div class="pager">
+          <% if (page.prev){ %>
+            <a class="post-prev pager-item" href="<%- url_for(page.prev.path) %>" >
+              <strong class="article-nav-caption"><%= __('newer') %></strong>
+              <p class="post-nav-title"><%= page.prev.title %></p>
+            </a>
+          <% } %>
+          <% if (page.next){ %>
+            <a class="post-next pager-item" href="<%- url_for(page.next.path) %>">
+              <strong class="article-nav-caption"><%= __('older') %></strong>
+              <p class="post-nav-title"><%= page.next.title %></p>
+            </a>
+          <% } %>
+        </div>
+        <% } %>
+
+         <!-- comments -->
+        <%- partial('partials/comments') %>
+
+    </div>
+    <%if(theme.sidebar||page.toc){%>
+    <aside>
+        <div id="toc">
+        </div>
+    </aside>
+    <%}%>
+</div>
