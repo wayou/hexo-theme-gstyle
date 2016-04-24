@@ -223,6 +223,7 @@ article img{
     max-width: 100%;
     display: block;
     margin: 0 auto;
+    color: #999;
 }
 article code,article tt{
     padding: .2em .4em;
