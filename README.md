@@ -47,3 +47,8 @@ whether to show an indicator for the active navigation menu item
 ```yml
 active_nav: false
 ```
+
+### known issues
+
+- images may be empty after imagemin optimized. my suggestion is not to enable it at present
+- 

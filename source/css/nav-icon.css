@@ -14,7 +14,7 @@
     transition: .5s ease-in-out;
     cursor: pointer;
     z-index: 999;
-    transform: scale(.4);
+    transform: scale(.4)!important;
     /*ripple*/
     position: absolute;
     right: 0;
