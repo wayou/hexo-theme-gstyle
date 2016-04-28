@@ -20,7 +20,7 @@ auto generated table of content with transition animation when expanding and col
 ![full screen navigation menu with morphing animation](https://raw.githubusercontent.com/wayou/hexo-theme-gstyle/master/source/img/toc.gif)
 
 ## how to use
-- `git clone <repo addr> themes/`
+- `git clone https://github.com/wayou/hexo-theme-gstyle.git themes/gstyle`
 - config site `_config.yml` `theme: splash`
 
 ## config
