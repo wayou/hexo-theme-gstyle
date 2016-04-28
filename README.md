@@ -21,7 +21,7 @@ auto generated table of content with transition animation when expanding and col
 
 ## how to use
 - `git clone https://github.com/wayou/hexo-theme-gstyle.git themes/gstyle`
-- config site `_config.yml` `theme: splash`
+- config site `_config.yml` `theme: gstyle`
 
 ## config
 
