@@ -23,6 +23,11 @@ auto generated table of content with transition animation when expanding and col
 - `git clone https://github.com/wayou/hexo-theme-gstyle.git themes/gstyle`
 - config site `_config.yml` `theme: gstyle`
 
+## using relative assets path in your post
+- enable `post_asset_folder` in your hexo site config file `_config.yml`
+- install `hexo-filter-pathfix` to fix the path of assets `npm install --save hexo-filter-pathfix`
+- then you can using relative path when writing posts like `![image title](image_name.jpg)`.
+
 ## config
 
 ### comments
@@ -41,7 +46,11 @@ baidu_analytics:
 ```
 
 ### image title
-add caption below each image in the post
+to enable image caption for iamges, install `hexo-image-caption` plugin by using this command:
+```bash
+npm i --save hexo-image-caption
+```
+and enable it in your hexo site config file `_config.yml` (not the theme config file).
 ```yml
 image_caption: true
 ```
