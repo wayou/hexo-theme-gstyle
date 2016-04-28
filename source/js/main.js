@@ -39,6 +39,15 @@ $(function() {
                         if (window['DUOSHUO'] && $('#ds-thread')) {
                             DUOSHUO.EmbedThread($('#ds-thread')[0]);
                         }
+                        // if (window['DISQUS'] && $('#disqus_thread')) {
+                        //     DISQUS.reset({
+                        //         reload: true,
+                        //         config: function() {
+                        //             this.page.identifier = window.disqusConfig.identifier;
+                        //             this.page.url = window.disqusConfig.url;
+                        //         }
+                        //     });
+                        // }
                     });
                 }
             }
