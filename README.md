@@ -1,5 +1,5 @@
 # hexo-theme-gstyle
-a google style hexo theme.
+a google style theme for hexo.
 
 ## preview
 
