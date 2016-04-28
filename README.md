@@ -13,7 +13,11 @@ totaly responsive, mobile first.
 
 ### impressing navigation
 full screen morphing navigation on mobile
-![full screen navigation menu with morphing animation]()
+![full screen navigation menu with morphing animation](https://raw.githubusercontent.com/wayou/hexo-theme-gstyle/master/source/img/nav.gif)
+
+### graceful table of content module
+auto generated table of content with transition animation when expanding and collapsing.
+![full screen navigation menu with morphing animation](https://raw.githubusercontent.com/wayou/hexo-theme-gstyle/master/source/img/toc.gif)
 
 ## how to use
 - `git clone <repo addr> themes/`
@@ -30,7 +34,7 @@ disqus_shortname: #your disqus shortname goes here
 
 ### site analytics
 the `baidu_analytics` is mainly for mainland users. you can get the baidu analytics id from the admin page of baidu analytics code installing page.
-![where to get the baidu analytics id]()
+![where to get the baidu analytics id](https://raw.githubusercontent.com/wayou/hexo-theme-gstyle/master/source/img/baidu_analytics.png)
 ``` yml
 google_analytics:  
 baidu_analytics: 
@@ -42,7 +46,7 @@ add caption below each image in the post
 image_caption: true
 ```
 
-### navigation active indicator
+### sliding navigation indicator
 whether to show an indicator for the active navigation menu item
 ```yml
 active_nav: false
@@ -51,4 +55,4 @@ active_nav: false
 ### known issues
 
 - images may be empty after imagemin optimized. my suggestion is not to enable it at present
-- 
+- enable page transition with smoothstate will cause the code in the post cannot scroll horizonally

@@ -29,8 +29,8 @@ links:
     url: http://www.weibo.com/liuwayong
     intro: "twitter的本地化版本"
 
-# disqus_shortname: wayouliu
-duoshuo_shortname: wayouliu
+disqus_shortname: wayouliu
+# duoshuo_shortname: wayouliu
 #site statistic
 google_analytics:  
 # baidu_analytics: 392796d51567e848aebf813b65cb8656
