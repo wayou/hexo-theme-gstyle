@@ -9,7 +9,7 @@
             <% page.posts.each(function(article) { %>
             <section>
                 <a href="<%=url_for(article.path)%>">
-                    <%=article.title || 'No Title'%>
+                    <%=article.title || __('no-title')%>
                 </a>
                 <time class="post-date" datetime="<%=date_xml(article.date)%>">
                     <%=date(article.date)%>
