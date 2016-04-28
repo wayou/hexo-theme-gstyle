@@ -127,6 +127,7 @@ $(function() {
     function toc() {
         if (!isPhone) {
             //toc
+            $('#toc').html('');
             $('#toc').tocify({
                 'selectors': 'h2,h3',
                 'extendPage': false,

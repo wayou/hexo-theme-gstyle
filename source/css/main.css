@@ -393,6 +393,10 @@ h1{
     padding: 10px;
 }
 
+figure.highlight figcaption{
+    margin-left: 15px;
+}
+
 @media (min-width: 425px) {
     .container {
         padding-right: 15px;
