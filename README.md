@@ -52,7 +52,7 @@ google_analytics:
 baidu_analytics: 
 ```
 
-### image title
+### image caption
 to enable image caption for iamges, install `hexo-image-caption` plugin by using this command:
 ```bash
 npm i --save hexo-image-caption
