@@ -227,7 +227,7 @@ article img{
     color: #999;
 }
 article code,article tt{
-    padding: .2em .4em;
+    padding: .1em .2em;
     margin: 0 5px;
     background-color: rgba(0,0,0,.04);
     border-radius: 3px;
@@ -407,7 +407,7 @@ figure.highlight figcaption{
     .logo{
         margin: 0;
     }
- 
+
     figure.highlight,pre, .highlight, .gist {
         margin:15px 0;
     }
@@ -427,7 +427,7 @@ figure.highlight figcaption{
     .container {
         /*width: 750px;*/
     }
-   
+
     .nav-toggle-icon {
         display: none;
     }
