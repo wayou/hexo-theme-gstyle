@@ -63,7 +63,7 @@ $(function() {
     }
 
     function slidingBorder() {
-        // sliding border 
+        // sliding border
         var $activeState = $('.nav-indicator', 'nav'),
             $navParent = $('.menu-wrapper', 'nav'),
             overNav = false,
@@ -140,7 +140,8 @@ $(function() {
             $('#toc').tocify({
                 'selectors': 'h2,h3',
                 'extendPage': false,
-                'theme': 'none'
+                'theme': 'none',
+                'scrollHistory':true
             });
         }
     }
