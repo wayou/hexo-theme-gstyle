@@ -18,7 +18,6 @@ no blank between page switch!
 ### responsive
 totaly responsive, mobile first.
 no bootstrap, using modern css3 flex!
-![hexo-theme-gstyle responsive screenshot]()
 
 ### impressing navigation
 full screen morphing navigation on mobile
