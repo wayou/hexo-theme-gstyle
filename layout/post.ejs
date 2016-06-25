@@ -6,12 +6,12 @@
           <%}else{%>
           <header class="post-header">
           <%}%>
-            <h1 class="post-title"><%= page.title %></h1>
           </header>
-           
+          <h1 class="post-title"><%= page.title %></h1>
+
           <section class="post-info">
             <span class="post-date"><%- date(page.date, 'YYYY/M/D') %></span>
-            <% if (page.categories && page.categories.length&&theme.show_post_category){ %>
+            <% if (page.categories && page.categories.length && theme.show_post_category){ %>
             <span class="post-category">
                 <%- list_categories(page.categories, {
                   show_count: false,
@@ -21,7 +21,7 @@
                 }) %>
             </span>
             <% } %>
-            <% if (page.tags && page.tags.length&&theme.show_post_tags){ %>
+            <% if (page.tags && page.tags.length && theme.show_post_tags){ %>
             <span class="post-tags">
               <%- list_tags(page.tags, {
                 show_count: false,

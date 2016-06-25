@@ -1,61 +1,10 @@
 $(function() {
     var isPhone = $(window).width() < 768;
 
-    $('.material-preloader').hide();
-
     init();
 
-    //smooth sate
-    var $body = $('html, body'),
-        $main = $('#main'),
-        options = {
-            prefetch: true,
-            pageCacheSize: 4,
-            blacklist: '#toc a,.post-content a,.no-smoothstate',
-            onStart: {
-                duration: 250,
-                render: function(url, $container) {
-                    $('.material-preloader').show();
-                    $body.animate({
-                        scrollTop: 0
-                    });
-                    $main.addClass('is-exiting');
-                    smoothState.restartCSSAnimations();
-                }
-            },
-            onEnd: {
-                duration: 0,
-                render: function(url, $container, $content) {
-                    $('.material-preloader').hide();
-                    $main.removeClass('is-exiting');
-                    $main.html($content);
-                    $body.css('cursor', 'auto');
-                    // $body.find('a').css('cursor', 'auto');
-
-                    //re-initial page after loaded
-                    setTimeout(function() {
-                        init();
-                        //页面加载后显示评论，如果有的话
-                        if (window['DUOSHUO'] && $('#ds-thread')) {
-                            DUOSHUO.EmbedThread($('#ds-thread')[0]);
-                        }
-                        // if (window['DISQUS'] && $('#disqus_thread')) {
-                        //     DISQUS.reset({
-                        //         reload: true,
-                        //         config: function() {
-                        //             this.page.identifier = window.disqusConfig.identifier;
-                        //             this.page.url = window.disqusConfig.url;
-                        //         }
-                        //     });
-                        // }
-                    });
-                }
-            }
-        },
-        smoothState = $main.smoothState(options).data('smoothState');
-
     function init() {
-        $('.material-preloader').hide();
+        // $('.material-preloader').hide();
         initialNavToggle();
         setupRipple();
         slidingBorder();
@@ -149,6 +98,7 @@ $(function() {
     function initialNavToggle() {
         //nav icon morphing
         $('.nav-toggle-icon').click(function() {
+            $('body').toggleClass('nav-active');
             $(this).toggleClass('active').find('.material-hamburger').toggleClass('opened');
             $('.menu-wrapper').toggleClass('active');
             $('.logo').toggleClass('fixed');

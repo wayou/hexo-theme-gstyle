@@ -29,21 +29,11 @@ links:
     url: http://www.weibo.com/liuwayong
     intro: "twitter的本地化版本"
 
-#disqus_shortname: wayou
+# disqus_shortname: wayou
 duoshuo_shortname: wayouliu
 #site statistic
 google_analytics:  
 # baidu_analytics: 392796d51567e848aebf813b65cb8656
 baidu_analytics: 
 
-# customize theme configurations
-themeConfig: 
-  themeColor: '#4184f3'
-  menuFontColor: '#fff' #the font color of the nav menu and site title
-  contentFontColor: '#000' # the color for article font
-  contentBgColor: '' # the color for article background
-  bodyBgColor: '' # the color for article background
-  linkColor: '#3c80f6' #the color for links
-  codeHighlight: light # code highlight theme , 'light' or 'dark'
-  # blockLeftBorder: '' 
 
