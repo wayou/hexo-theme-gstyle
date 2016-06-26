@@ -252,12 +252,16 @@ article hr{
     background-position: center;
     position: relative;
     padding-bottom: 45%;
+    background-color: #4184f3;
 }
 .post-header .post-title{
     margin: 0;
     width: 100%;
     /*padding: 15px;*/
 
+}
+.post-header.with-cover{
+    background-color: #4184f3;
 }
 .post-header.with-cover .post-title{
     color: #fff;
