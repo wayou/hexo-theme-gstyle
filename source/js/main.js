@@ -90,7 +90,7 @@ $(function() {
                 'selectors': 'h2,h3',
                 'extendPage': false,
                 'theme': 'none',
-                'scrollHistory':true
+                'scrollHistory':false
             });
         }
     }
