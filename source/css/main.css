@@ -217,6 +217,9 @@ article{
     padding: 15px;
     /*margin: 25px 0;*/
 }
+article iframe{
+    width: 100%;
+}
 article img{
     max-width: 100%;
     display: block;
