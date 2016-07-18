@@ -3,13 +3,18 @@
 
   <% page.posts.each(function(post, i){ %>
     <article>
-      <%if(post.cover){%>
-      <header class="post-header with-cover" style="background-image:url('<%- config.root+post.path+post.cover%>')" >
-      <%}else{%>
-      <header class="post-header">
-      <%}%>
-        <h1 class="post-title"><a href="<%- url_for(post.path) %>" title="<%=post.title || __('no-title')%>" ><%=post.title || __('no-title')%></a></h1>
-      </header>
+      <a href="<%- url_for(post.path) %>" >
+        <%if(post.cover){%>
+          <header class="post-header with-cover" style="background-image:url('<%- config.root+post.path+post.cover%>')" >
+        <%}else{%>
+          <header class="post-header">
+        <%}%>
+          <h1 class="post-title">
+            <!-- <a href="<%- url_for(post.path) %>" title="<%=post.title || __('no-title')%>" ><%=post.title || __('no-title')%></a> -->
+            <span><%=post.title || __('no-title')%></span>
+          </h1>
+        </header>
+      </a>
 
        <section class="post-info">
         <span class="post-date"><%- date(post.date, 'YYYY/M/D') %></span>
