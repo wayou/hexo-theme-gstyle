@@ -242,6 +242,9 @@ article hr{
     background-color: #e7e7e7;
     border: 0 none;
 }
+figure.highlight .gutter{
+    padding: 0 5px;
+}
 
 /*index cards*/
 .post-header{
