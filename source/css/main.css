@@ -187,6 +187,9 @@ nav a {
 .title-list{
     min-height: 320px;
 }
+.title-list section{
+    padding: 5px 0;
+}
 
 aside {
     /*background: #eee;*/
@@ -330,7 +333,7 @@ ul.post-tag-list li.post-tag-list-item a::before{
 }
 /*typography*/
 h1{
-    line-height: 32px;
+    line-height: 35px;
     font-size: 2em;
 }
 #toc *{
@@ -397,6 +400,7 @@ h1{
 
 figure.highlight figcaption{
     margin-left: 15px;
+    display: none;
 }
 
 @media (min-width: 425px) {
@@ -413,6 +417,7 @@ figure.highlight figcaption{
     figure.highlight,pre, .highlight, .gist {
         margin:15px 0;
     }
+
     article blockquote{
         margin: 0;
     }
@@ -463,6 +468,10 @@ figure.highlight figcaption{
         height: 100%;
         /*line-height: 56px;*/
         /*padding: 0;*/
+    }
+
+    figure.highlight figcaption{
+        display: block;
     }
 }
 
