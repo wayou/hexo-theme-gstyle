@@ -5,7 +5,7 @@
   <link href="/hexo-theme-gstyle/public/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-20T04:24:11.000Z</updated>
+  <updated>2016-07-21T12:17:32.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/05/toc-sample/"/>
     <id>http://yoursite.com/2016/05/05/toc-sample/</id>
     <published>2016-05-05T13:26:23.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;😌 This is intended as a quick reference and showcase. For more complete info, see &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;John Gruber’s original spec&lt;/a&gt; and the &lt;a href=&quot;http://github.github.com/github-flavored-markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github-flavored Markdown info page&lt;/a&gt;.&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -197,7 +197,7 @@
     <link href="http://yoursite.com/2016/05/05/post-with-cover/"/>
     <id>http://yoursite.com/2016/05/05/post-with-cover/</id>
     <published>2016-05-05T13:17:10.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;这是一篇带封面的文章，封面将作为标题的背景展示在首页，显示成一个卡片。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -220,7 +220,7 @@
     <link href="http://yoursite.com/2013/12/26/images/"/>
     <id>http://yoursite.com/2013/12/26/images/</id>
     <published>2013-12-26T14:46:49.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This is a image test post.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/hexo-theme-gstyle/public/2013/12/26/images//assets/wallpaper-2572384.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -245,7 +245,7 @@
     <link href="http://yoursite.com/2013/12/25/no-title/"/>
     <id>http://yoursite.com/2013/12/25/no-title/</id>
     <published>2013-12-25T14:57:49.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This post doesn’t have a title. Make sure it’s accessible.&lt;/p&gt;
 </content>
@@ -265,7 +265,7 @@
     <link href="http://yoursite.com/2013/12/25/excerpts/"/>
     <id>http://yoursite.com/2013/12/25/excerpts/</id>
     <published>2013-12-24T16:23:23.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;The following contents should be invisible in home/archive page.&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -287,7 +287,7 @@
     <link href="http://yoursite.com/2013/12/25/videos/"/>
     <id>http://yoursite.com/2013/12/25/videos/</id>
     <published>2013-12-24T16:19:15.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This is a video test post.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/p&gt;
@@ -311,7 +311,7 @@
     <link href="http://yoursite.com/2013/12/25/gallery-post/"/>
     <id>http://yoursite.com/2013/12/25/gallery-post/</id>
     <published>2013-12-24T16:16:18.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This post contains 4 photos:&lt;/p&gt;
 &lt;ul&gt;
@@ -343,7 +343,7 @@
     <link href="http://yoursite.com/2013/12/25/tag-plugins/"/>
     <id>http://yoursite.com/2013/12/25/tag-plugins/</id>
     <published>2013-12-24T16:14:39.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This post is used for testing tag plugins. See &lt;a href=&quot;http://zespia.tw/hexo/docs/tag-plugins.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;docs&lt;/a&gt; for more info.&lt;/p&gt;
 &lt;h2 id=&quot;Block-Quote&quot;&gt;&lt;a href=&quot;/hexo-theme-gstyle/public/2013/12/25/tag-plugins/#Block-Quote&quot; class=&quot;headerlink&quot; title=&quot;Block Quote&quot;&gt;&lt;/a&gt;Block Quote&lt;/h2&gt;&lt;h3 id=&quot;Normal-blockquote&quot;&gt;&lt;a href=&quot;/hexo-theme-gstyle/public/2013/12/25/tag-plugins/#Normal-blockquote&quot; class=&quot;headerlink&quot; title=&quot;Normal blockquote&quot;&gt;&lt;/a&gt;Normal blockquote&lt;/h3&gt;&lt;blockquote&gt;
@@ -385,7 +385,7 @@
     <link href="http://yoursite.com/2013/12/24/link-post-without-title/"/>
     <id>http://yoursite.com/2013/12/24/link-post-without-title/</id>
     <published>2013-12-24T15:44:13.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open &lt;a href=&quot;http://www.google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google&lt;/a&gt; in a new tab or window.&lt;/p&gt;
 </content>
@@ -404,7 +404,7 @@
     <link href="http://yoursite.com/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/"/>
     <id>http://yoursite.com/2013/12/24/日本語テスト/</id>
     <published>2013-12-24T15:33:26.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This is a Japanese test post.&lt;/p&gt;
 &lt;p&gt;私は昨日ついにその助力家というのの上よりするたなけれ。&lt;/p&gt;
@@ -435,7 +435,7 @@
     <link href="http://yoursite.com/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/"/>
     <id>http://yoursite.com/2013/12/24/中文測試/</id>
     <published>2013-12-24T15:31:30.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This is a Chinese test post.&lt;/p&gt;
 &lt;p&gt;善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。&lt;/p&gt;
@@ -464,7 +464,7 @@
     <link href="http://yoursite.com/2013/12/24/long-title/"/>
     <id>http://yoursite.com/2013/12/24/long-title/</id>
     <published>2013-12-24T15:31:06.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This post has a long title. Make sure the title displayed right.&lt;/p&gt;
 </content>
@@ -484,7 +484,7 @@
     <link href="http://yoursite.com/2013/12/24/categories/"/>
     <id>http://yoursite.com/2013/12/24/categories/</id>
     <published>2013-12-24T15:30:09.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
 </content>
@@ -510,7 +510,7 @@
     <link href="http://yoursite.com/2013/12/24/link-post/"/>
     <id>http://yoursite.com/2013/12/24/link-post/</id>
     <published>2013-12-24T15:30:04.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This is a link post. Clicking on the link should open &lt;a href=&quot;http://www.google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google&lt;/a&gt; in a new tab or window.&lt;/p&gt;
 </content>
@@ -529,7 +529,7 @@
     <link href="http://yoursite.com/2013/12/24/tags/"/>
     <id>http://yoursite.com/2013/12/24/tags/</id>
     <published>2013-12-24T15:29:53.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;This post contains 3 tags. Make sure your theme can display all of the tags.&lt;/p&gt;
 </content>
@@ -555,7 +555,7 @@
     <link href="http://yoursite.com/2013/12/24/elements/"/>
     <id>http://yoursite.com/2013/12/24/elements/</id>
     <published>2013-12-24T15:29:08.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don’t forget to redefine the style by yourself.&lt;/p&gt;
 &lt;hr&gt;
@@ -621,7 +621,7 @@
     <link href="http://yoursite.com/2013/12/24/hello-world/"/>
     <id>http://yoursite.com/2013/12/24/hello-world/</id>
     <published>2013-12-24T09:49:32.000Z</published>
-    <updated>2016-07-20T04:24:11.000Z</updated>
+    <updated>2016-07-21T12:17:32.000Z</updated>
     
     <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://zespia.tw/hexo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://zespia.tw/hexo/docs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; to learn how to use.&lt;/p&gt;
 </content>
