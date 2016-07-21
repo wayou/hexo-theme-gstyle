@@ -1,64 +1,24 @@
-<!--
-in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=Graffiti&t=2%20be%20the%20master
--->
 <!DOCTYPE html>
           <head>
         <meta charset="utf-8">
             
             <title>
-                带封面的文章 | gstyle theme preview
+                带封面的文章 | hexo-theme-gstyle
             </title>
             <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-            <meta name="theme-color" content="undefined">
-                
+            <meta name="theme-color" content="#4184f3">
             
-                <link href="/favicon.ico" rel="icon"/>
-                
+            
+            <link href="/favicon.ico" rel="icon"/>
+            
 
-          
             <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/highlight.light.css">
-          
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/preloader.css">
-          <!-- <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/animate.css"> -->
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/nav-icon.css">
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/waves.min.css">
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/jquery.tocify.css">
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/smooth-state-anim.css">
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/main.css">
-          <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/nav-indicator.css">
-          <style type="text/css">
-    /*customize theme configurations*/
-   body{
-   		background-color: ;
-   }
-   /*link color*/
-   a{
-   		color: #3c80f6;
-   }
-   /*menu color*/
-   nav a,.menu-wrapper a{
-   		color: #fff;
-   }
-   .material-hamburger span{
-   		background: #fff;
-   }
-   /*full screen overlay menu backgroudn color*/
-    .nav-wrapper,.nav-toggle-icon:before{
-        background-color:#4184f3;
-    }
-    article{
-    	color: #000;
-    }
-    .main, article{
-    	background: ;
-    }
-    /*code block left border*/
-    pre, .highlight, .gist,figure.highlight{
-      /*border-left: 4px solid undefined;*/
-    }
-</style>
-
-          
+            <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/nav-icon.css">
+            <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/waves.min.css">
+            <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/jquery.tocify.css">
+            <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/main.css">
+            <link rel="stylesheet" href="/hexo-theme-gstyle/public/css/nav-indicator.css">
+            
   
 
   
@@ -68,9 +28,6 @@ in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=G
     <body>
         <header>
             <!-- cover image or sth. -->
-            <!-- material design style preloader http://codepen.io/Michiel/pen/ogXrBX -->
-            <div aria-busy="true" aria-label="Loading, please wait." class="material-preloader" role="progressbar">
-            </div>
         </header>
         <div id="main" class="m-scene">
             <div class="nav-wrapper" style="background-color:undefined">
@@ -78,7 +35,7 @@ in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=G
         <nav>
             <div class="logo wave">
                 <a href="/hexo-theme-gstyle/public/" id="logo">
-                    gstyle theme preview
+                    hexo-theme-gstyle
                 </a>
             </div>
             <div class="nav-toggle-icon" >
@@ -130,9 +87,9 @@ in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=G
           
           <header class="post-header with-cover" style="background-image:url('/hexo-theme-gstyle/public/2016/05/05/post-with-cover/cover.jpeg')" >
           
-            <h1 class="post-title">带封面的文章</h1>
           </header>
-           
+          <h1 class="post-title">带封面的文章</h1>
+
           <section class="post-info">
             <span class="post-date">2016/5/5</span>
             
@@ -143,7 +100,7 @@ in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=G
             <p>这是一篇带封面的文章，封面将作为标题的背景展示在首页，显示成一个卡片。</p>
 <a id="more"></a>
 <p>可以通过在markdown文件顶部指定<code>cover</code>属性来显示封面。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">title: 带封面的文章</span><br><span class="line">toc: true</span><br><span class="line">date: 2016-05-05 21:17:10</span><br><span class="line">cover: cover.jpeg #指定图片资源</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><div class="line">title: 带封面的文章</div><div class="line">toc: true</div><div class="line">date: 2016-05-05 21:17:10</div><div class="line">cover: cover.jpeg #指定图片资源</div><div class="line">categories:</div><div class="line">tags:</div></pre></td></tr></table></figure>
 <p>一般地，如果开启了hexo的<code>post_asset_folder: true</code>设置项，我们只需要将相应图片放到与文章一起生成的存放资源的文件夹里，即可简单方便地通过直接写图片名来指定封面了。参见本示例站点。</p>
 
           </section>
@@ -171,24 +128,29 @@ in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=G
         <div class="comment-section">
   
     
-   <div id="disqus_thread"></div>
-    <script>
-    /**
-    * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-    */
-   window.disqusConfig={
-    url : 'http://yoursite.com/hexo-theme-gstyle/public/2016/05/05/post-with-cover/',
-    identifier:'_posts/post-with-cover.md'
-   }
 
-    var disqus_config = function () {
-    this.page.url = 'http://yoursite.com/hexo-theme-gstyle/public/2016/05/05/post-with-cover/'; // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = '_posts/post-with-cover.md'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+         */
+        
+        var disqus_config = function () {
+            this.page.url = 'http://yoursite.com/hexo-theme-gstyle/public/2016/05/05/post-with-cover/';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = '_posts/post-with-cover.md'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() {  // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            
+            s.src = '//wayou.disqus.com/embed.js';
+            
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
     </script>
-    <script src="//wayou.disqus.com/embed.js"></script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
   
 
@@ -198,30 +160,20 @@ in case you wonder,play it here: http://patorjk.com/software/taag/#p=display&f=G
     </div>
     
 </div>
+
                 </div>
             </div>
         </div>
         <footer class="footer">
-    <p>
-        由
-        <a href="http://hexo.io/" target="_blank">
-            Hexo
-        </a>
-        强力驱动，搭载
-        <a href="https://github.com/wayou/hexo-theme-gstyle">
-            gstyle
-        </a>
-        主题
-    </p>
+    <p>由<a href="http://hexo.io/" target="_blank">Hexo</a>强力驱动，搭载<a href="https://github.com/wayou/hexo-theme-gstyle">gstyle</a>主题</p>
     <p>
         &copy; 2016 wayou
     </p>
 </footer>
 <script src="/hexo-theme-gstyle/public/lib/jquery.js"></script>
-<script src="/hexo-theme-gstyle/public/lib/jquery.smoothState.js"></script>
 <script src="/hexo-theme-gstyle/public/lib/waves.js"></script>
 <script src="/hexo-theme-gstyle/public/lib/jquery-ui.js"></script>
-<script src="/hexo-theme-gstyle/public/lib/jquery.tocify.min.js"></script>
+<script src="/hexo-theme-gstyle/public/lib/jquery.tocify.js"></script>
 <script src="/hexo-theme-gstyle/public/js/main.js"></script>
 
     </body>
