@@ -10,7 +10,7 @@
           <h1 class="post-title"><%= page.title %></h1>
 
           <section class="post-info">
-            <span class="post-date"><%- date(page.date, 'YYYY/M/D') %></span>
+            <span class="post-date"><%- date(page.date, 'YYYY/MM/DD') %></span>
             <% if (page.categories && page.categories.length && theme.show_post_category){ %>
             <span class="post-category">
                 <%- list_categories(page.categories, {

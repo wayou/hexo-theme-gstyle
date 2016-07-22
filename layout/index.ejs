@@ -1,5 +1,5 @@
  <div class="row">
-  <div class="main">
+  <div class="main index">
 
   <% page.posts.each(function(post, i){ %>
     <article>
@@ -17,7 +17,7 @@
       </a>
 
        <section class="post-info">
-        <span class="post-date"><%- date(post.date, 'YYYY/M/D') %></span>
+        <span class="post-date"><%- date(post.date, 'YYYY/MM/DD') %></span>
           <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
           <span class="post-category">
               <%- list_categories(post.categories, {

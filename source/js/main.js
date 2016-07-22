@@ -9,6 +9,10 @@ $(function() {
         setupRipple();
         slidingBorder();
         toc();
+
+        $('.post-content img').on('click',function(){
+            window.open($(this).attr('src'));
+        });
     }
 
     function slidingBorder() {
@@ -108,7 +112,7 @@ $(function() {
     function setupRipple() {
         // ripple click http://fian.my.id/Waves/#start
         Waves.attach('.wave');
-        Waves.attach('.post-header');
+        Waves.attach('.main.index .post-header.with-cover');
         Waves.attach('.pagination a');
         Waves.attach('.pager .pager-item', ['waves-button']);
         Waves.attach('.btn', ['waves-button']);
