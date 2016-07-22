@@ -108,6 +108,7 @@ $(function() {
     function setupRipple() {
         // ripple click http://fian.my.id/Waves/#start
         Waves.attach('.wave');
+        Waves.attach('.post-header');
         Waves.attach('.pagination a');
         Waves.attach('.pager .pager-item', ['waves-button']);
         Waves.attach('.btn', ['waves-button']);

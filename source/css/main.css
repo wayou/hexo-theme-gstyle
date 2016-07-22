@@ -259,6 +259,7 @@ figure.highlight .gutter{
     position: relative;
     padding-bottom: 45%;
     background-color: #4184f3;
+    display: block;
 }
 .post-header .post-title{
     margin: 0;
