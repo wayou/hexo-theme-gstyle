@@ -40,8 +40,11 @@ section.post-content pre code:before,section.post-content pre code:after {
 }
 /*gitbook end*/
 
-.token.operator{
+section.post-content pre .token.operator{
     background: transparent;
+}
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string{
+    background:transparent;
 }
 section.post-content pre[class*="language-"] {
     border-radius: 0;
