@@ -75,6 +75,22 @@ image_caption:
   class_name:
 ```
 
+### Code highlight
+
+Hexo default code highligth is the default. 
+However, I customized [Prism.js](http://prismjs.com/) for this theme, whitch is much nicer and many languagaes like `jsx` are well supported.
+And thanks to [ele828](https://www.npmjs.com/~ele828) for making the [hexo prism plugin](https://www.npmjs.com/package/hexo-prism-plugin).
+
+To enable Prism code highlight,
+- `npm i -S hexo-prism-plugin`
+- edit hexo config file `_config.yml`(not the one for the theme) to enable this plugin
+```yml
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess 
+  theme: 'default'
+```
+![](source/img/hexo-prism.jpg)
+
 ### Sliding navigation indicator
 Whether to show an indicator for the active navigation menu item
 ```yml
