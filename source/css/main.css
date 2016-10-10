@@ -72,7 +72,7 @@ h6 {
 }
 
 a {
-    color: #3c80f6;
+    color: #0063FF;
     text-decoration: none;
 }
 
@@ -401,10 +401,10 @@ article blockquote ol,article blockquote ul{
     border-left: 2px solid transparent;
 }
 .tocify li.tocify-focus{
-    border-left: 2px solid #3c80f6;
+    border-left: 2px solid #0063FF;
 }
 .tocify li.tocify-focus a{
-    color:#3c80f6;
+    color:#0063FF;
 }
 .pager{
     display: flex;
@@ -545,3 +545,19 @@ figure.highlight figcaption{
     margin: 0;
 }
 
+/*keyboard support*/
+kbd {
+  font-family: monospace, monospace;
+  font-size: 1em;
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
