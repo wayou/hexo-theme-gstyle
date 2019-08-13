@@ -37,10 +37,10 @@ Auto generated table of content with transition animation when expanding and col
 ## Config
 
 ### toc
-- Enable `toc: true` in the Front-matter of posts you wanna display table of content
+Enable `toc: true` in the Front-matter of posts you wanna display table of content
 
 ```diff
-title: thi is the post title
+title: this is the post title
 +toc: true
 date: 2016-01-01 15:47:33
 tags:
